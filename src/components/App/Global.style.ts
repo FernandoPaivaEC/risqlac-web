@@ -5,9 +5,11 @@ import background from '../../assets/background.jpg'
 const GlobalStyle = createGlobalStyle`
     html {
         --red: #ff3333;
-        --yellow: #ffc107;
+        /* --yellow: #ffc107; */
+        --yellow: hsl(0, 75%, 60%);
         --transparent-yellow: #ffc107aa;
-        --black: #2a2a2a;
+        /* --black: #2a2a2a; */
+        --black: #eeeeee;
         --shadow: #00000080;
         --white: #ffffff;
         --transparent-black: #2a2a2aaa;
